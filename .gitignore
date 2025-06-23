@@ -1,0 +1,39 @@
+# 忽略所有构建目录（任意层级）
+**/build/
+**/out/
+**/bin/
+**/dist/
+**/Debug/
+**/Release/
+
+# 忽略 CMake 生成的中间文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# 忽略编译产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.code-workspace
+*.sln
+*.vcxproj*
+*.user
+*.DS_Store
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+*.swp
+*~
